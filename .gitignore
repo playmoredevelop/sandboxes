@@ -1,0 +1,22 @@
+# Node modules
+node_modules
+
+# Clear repository
+.env
+.cache
+package.json
+package-lock.json
+yarn.lock
+builds/*
+
+# Resources folder with the assets source
+resources/*
+!resources/Makefile
+
+# Mac
+*.DS_Store
+**/.DS_Store
+
+# VS Code
+# .vscode
+.history

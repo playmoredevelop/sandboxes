@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "locale": "ru",
+    "allowJs": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "removeComments": false,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}
