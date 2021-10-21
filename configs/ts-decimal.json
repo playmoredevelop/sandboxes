@@ -11,13 +11,13 @@
       "url": "github:playmoredevelop/sandboxes/"
     },
     "engines": {
-      "node": ">= 14.0.0"
+      "node": ">= 14.18.0"
     },
     "dependencies": {
       "decimal.js-light": "^2.5.1"
     },
     "devDependencies": {
-      "eslint": "^7.29.0"
+      "eslint": "^8.0.1"
     }
   }
   

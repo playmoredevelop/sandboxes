@@ -19,10 +19,10 @@ pixi-ts-gsap:
 	@touch ./src/index.ts
 	@${call init, ./configs/ts-pixi-gsap.json}
 
-pixi-ts-gsap-spine:
-	@echo 'Sandbox with: PIXI.JS + Typescript + GSAP + Spine (Testing WebGL features)'
+pixi-ts-gsap-full:
+	@echo 'Sandbox with: PIXI.JS + Typescript + GSAP + Spine + Howler + WFL (Testing WebGL features)'
 	@touch ./src/index.ts
-	@${call init, ./configs/ts-pixi-gsap-spine.json}
+	@${call init, ./configs/ts-pixi-gsap-full.json}
 
 js:
 	@echo 'Sandbox with: Vanilla Javascript + Decimal (initialized, please wait)'
