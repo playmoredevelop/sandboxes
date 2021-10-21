@@ -2,12 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Run TS (autobuild)",
+            "program": "${workspaceFolder}/src/index.ts",
+            "request": "launch",
+            "type": "pwa-node",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/compiled/**/*.js",
+                "!**/node_modules/**"
+            ]
+        },
+        {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "name": "Run JS (index.js)",
             "program": "${workspaceFolder}/src/index.js"
         }
     ]

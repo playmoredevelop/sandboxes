@@ -4,6 +4,8 @@
     "module": "ESNext",
     "target": "ESNext",
     "locale": "ru",
+    "outDir": "./compiled",
+    "sourceMap": true,
     "allowJs": true,
     "alwaysStrict": true,
     "skipLibCheck": true,
