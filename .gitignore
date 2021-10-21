@@ -8,6 +8,9 @@ package.json
 package-lock.json
 yarn.lock
 builds/*
+!builds/.gitkeep
+src/*
+!src/.gitkeep
 
 # Mac
 *.DS_Store

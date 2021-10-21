@@ -4,6 +4,12 @@
   "main": "src/index.ts",
   "author": "Playmore",
   "homepage": "github:playmoredevelop/sandboxes#readme",
+  "description": "Init sandbox with: Javascript + Decimal.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "github:playmoredevelop/sandboxes/"
+  },
   "engines": {
     "node": ">= 14.0.0"
   },
