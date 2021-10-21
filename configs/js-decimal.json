@@ -1,0 +1,16 @@
+{
+  "name": "sandboxes",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Playmore",
+  "homepage": "github:playmoredevelop/sandboxes#readme",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "dependencies": {
+    "decimal.js-light": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  }
+}
