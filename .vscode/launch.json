@@ -4,6 +4,7 @@
         {
             "name": "Run TS (autobuild)",
             "program": "${workspaceFolder}/src/index.ts",
+            "preLaunchTask": "tsc -watch",
             "request": "launch",
             "type": "pwa-node",
             "skipFiles": [
