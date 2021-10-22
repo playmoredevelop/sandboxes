@@ -4,7 +4,8 @@
     "module": "ESNext",
     "target": "ESNext",
     "locale": "ru",
-    "outDir": "./compiled",
+    "rootDir": "src",
+    "outDir": "compiled",
     "sourceMap": true,
     "allowJs": true,
     "alwaysStrict": true,
@@ -17,5 +18,7 @@
     "typeRoots": [
       "node_modules/@types"
     ]
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }

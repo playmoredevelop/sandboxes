@@ -6,7 +6,9 @@
             "program": "${workspaceFolder}/src/index.ts",
             "request": "launch",
             "type": "pwa-node",
-            "preLaunchTask": "tsc: build - tsconfig.json",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
             "outFiles": [
                 "${workspaceFolder}/compiled/**/*.js",
                 "!**/node_modules/**"

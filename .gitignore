@@ -7,8 +7,8 @@ node_modules
 package.json
 package-lock.json
 yarn.lock
-builds/*
-!builds/.gitkeep
+compiled/*
+!compiled/.gitkeep
 src/*
 !src/.gitkeep
 
